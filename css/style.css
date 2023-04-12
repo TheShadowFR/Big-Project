@@ -1,20 +1,68 @@
-.bg-gradient{
-    background-image: var(--bs-gradient);
+/* general */
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #282828;
+    color: black;
 }
 
-/* .bg {
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.container-color {
+    background-color: #5F6366;
+}
+
+
+a, a:hover {
+    text-decoration: none;
+}
+/* end general */
+/* header */
+
+/* end header */
+/* banner */
+
+.banner {
+    background-size: cover;
     background-image: url("../img/background.jpg");
-    background-color: bisque;
-    justify-content: center;
-    align-items: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    width: auto;
-} */
-
-* {
-    scroll-behavior: smooth;
+    max-height: 1000px;
 }
-/* body {
-    margin-top: -10;
-} */
+
+.banner-title {
+    max-width: 400px;
+    min-height: 400px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+
+
+/* end banner */
+/* section */
+.section {
+    max-width: 1000px;
+}
+/* end section */
+/* footer */
+.footer-color {
+    color: aliceblue;
+}
+
+/* end footer */
+
+
+
+
+
+
+/* Login */
+
