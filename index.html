@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container-fluid banner w-100 p-3">
+    <div class="container-fluid banner p-3">
       <!-- header -->
       <header class="container-lg container-color d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border border-dark border-5 rounded">
         <div class="col-md-3 mb-2 mb-md-0">
@@ -58,9 +58,10 @@
           <li><a href="#" class="nav-link px-4">Contact</a></li>
         </ul>
   
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn fw-bold btn-outline-black me-2">Login</button>
-          <button type="button" class="btn fw-bold btn-black me-4">Sign-up</button>
+        <div class="col-md-3 d-flex flex-row-reverse text-end">
+            <a type="button" href="login.html" class="btn fw-bold btn-outline-black me-44">Login</a>
+            <a type="button" class="btn fw-bold btn-black me-2">Sign-up</a>
+          
         </div>
       </header> 
         <!-- end header  -->
@@ -82,23 +83,47 @@
             <h4>Vous trouverez sur ce site:</h4>
           </div>
           <div class="row row-cols-1 row-cols-md-4 gx-4 text-center">
-            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 themed-grid-col">
-              <h5>Mes projets réalisés à Guardia</h5>
-              <div class="img-photo">
-                <img src="img/logo_guardia.jpg" alt="">
+            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 p-3 themed-grid-col">
+              <div class="card">
+                <img src="img/logo_guardia.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mes projets</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 themed-grid-col">
-              <h5>Mon CV</h5>
-              <div class="img-photo">
-                <img src="img/cv.png" alt="">
+            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 p-3 themed-grid-col">
+              <div class="card">
+                <img src="img/cv.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mon CV</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 themed-grid-col">
-              <h5>Des jeux que j'ai codé</h5>
+            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 p-3 themed-grid-col">
+              <div class="card">
+                <img src="img/logo_game.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Des jeux</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 themed-grid-col">
-              <h5>Un moyen de me contacter</h5>
+            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 p-3 themed-grid-col">
+              <div class="card">
+                <img src="img/logo_msg.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Me contacter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>   
