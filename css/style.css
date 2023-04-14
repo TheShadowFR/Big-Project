@@ -33,6 +33,12 @@ body, html {
 }
 
 
+                                                                        /* 43474A */
+
+
+
+
+
 
 /* end banner */
 /* section */
@@ -41,8 +47,8 @@ body, html {
 }
 
 .img-photo {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
 }
 /* end section */
 /* footer */
@@ -67,3 +73,6 @@ body, html {
 
 
 /* projet */
+/* .containercarousel {
+    width: 30px;
+} */
