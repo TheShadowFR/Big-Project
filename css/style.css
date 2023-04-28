@@ -76,3 +76,24 @@ body, html {
 /* .containercarousel {
     width: 30px;
 } */
+
+
+
+
+
+/* jeux */
+
+.consolepython {
+    max-width: 800px;
+    height: 400px;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
